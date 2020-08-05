@@ -1,0 +1,25 @@
+Juego
+
+Tablero:
+	100 x 100
+	Lista de Personajes
+
+Jugadores:
+	JugadorPrincipal
+		se mueve 2 + x 2 + y
+	JugadorCPU
+		se mueve 2 + x 1 + y
+	Naturaleza
+		se mueve 1 + x 2 + y
+
+
+Ningun personaje puede salir del tablero
+
+
+Adicionales:
+- Que al llegar al limite del tablero, los jugadores "reboten" tanto en x como en y
+- Poder identificar cada jugador cuando se muestra
+- Que el tablero vaya creando jugadores naturaleza. La idea es que los jugadores naturaleza tengan vida de una cierta cantidad de movimientos. Cuando muere un jugador naturaleza el tablero tiene que crear uno nuevo.
+
+Si quieren investigar un poco sobre valores random, usar la clase Random
+https://docs.microsoft.com/en-us/dotnet/api/system.random?view=netframework-4.0
